@@ -22,8 +22,8 @@ struct Quad {
 	Quad();
 	Quad(int n, char a, char b, char c): _n(n), _x(a), _y(b), _z(c) {
 	}
-	int _n; 	// 要移动的盘子数量
-	char _x, _y, _z; 	// 保存盘子的名字
+	int _n; 		// 要移动的盘子数量
+	char _x, _y, _z; 	// 保存柱子名称
 }; // 保存当前状态
 
 void hanoi(int, char, char, char);
